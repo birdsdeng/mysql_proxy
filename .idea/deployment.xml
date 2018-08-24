@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="06787cf9-1475-48e8-83fb-b3bbc0197a6f">
+  <component name="PublishConfigData" autoUpload="Always" serverName="mysql_proxy" uploadOnCheckin="06787cf9-1475-48e8-83fb-b3bbc0197a6f">
+    <serverData>
+      <paths name="mysql_proxy">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mysql_proxy" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="test">
+        <serverdata>
+          <mappings>
+            <mapping local="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
     <option name="myUploadOnCheckinName" value="test" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
